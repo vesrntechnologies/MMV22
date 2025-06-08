@@ -116,10 +116,10 @@ function showQuetions(index){
     //document.getElementById("Ques").appendChild(x);
     document.getElementById("Ques").appendChild(x);*/
 
-    if (questions[index].immg=="img4")
+    if (questions[index].immg=="img2")
         {
             var x = document.createElement("IMG");
-    x.setAttribute("src", "https://vesrntechnologies.github.io//Electrician3//Images//4.png");
+    x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//2.png");
     //x.setAttribute("width", "304");
    // x.setAttribute("height", "228");
     x.setAttribute("alt", "Image Can not Display");
@@ -127,60 +127,60 @@ function showQuetions(index){
     document.getElementById("Ques").appendChild(x);
         }
 
-        if (questions[index].immg=="img7")
+        if (questions[index].immg=="img8")
             {
                 var x = document.createElement("IMG");
-        x.setAttribute("src", "https://vesrntechnologies.github.io//Electrician3//Images//7.png");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//8.png");
         //x.setAttribute("width", "304");
        // x.setAttribute("height", "228");
         x.setAttribute("alt", "Image Can not Display");
         //document.getElementById("Ques").appendChild(x);
         document.getElementById("Ques").appendChild(x);
             }
-     if (questions[index].immg=="img8")
+     if (questions[index].immg=="img9")
             {
                 var x = document.createElement("IMG");
-        x.setAttribute("src", "https://vesrntechnologies.github.io//Electrician3//Images//8.png");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//9.png");
         //x.setAttribute("width", "304");
        // x.setAttribute("height", "228");
         x.setAttribute("alt", "Image Can not Display");
         //document.getElementById("Ques").appendChild(x);
         document.getElementById("Ques").appendChild(x);
             }
-     if (questions[index].immg=="img17")
+     if (questions[index].immg=="img28")
             {
                 var x = document.createElement("IMG");
-        x.setAttribute("src", "https://vesrntechnologies.github.io//Electrician3//Images//17.png");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//28.png");
         //x.setAttribute("width", "304");
        // x.setAttribute("height", "228");
         x.setAttribute("alt", "Image Can not Display");
         //document.getElementById("Ques").appendChild(x);
         document.getElementById("Ques").appendChild(x);
             }
-     if (questions[index].immg=="img27")
+     if (questions[index].immg=="img30")
             {
                 var x = document.createElement("IMG");
-        x.setAttribute("src", "https://vesrntechnologies.github.io//Electrician3//Images//27.png");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//30.png");
         //x.setAttribute("width", "304");
        // x.setAttribute("height", "228");
         x.setAttribute("alt", "Image Can not Display");
         //document.getElementById("Ques").appendChild(x);
         document.getElementById("Ques").appendChild(x);
             }
-     if (questions[index].immg=="img36")
+     if (questions[index].immg=="img31")
             {
                 var x = document.createElement("IMG");
-        x.setAttribute("src", "https://vesrntechnologies.github.io//Electrician3//Images//36.png");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//31.png");
         //x.setAttribute("width", "304");
        // x.setAttribute("height", "228");
         x.setAttribute("alt", "Image Can not Display");
         //document.getElementById("Ques").appendChild(x);
         document.getElementById("Ques").appendChild(x);
             }
-     if (questions[index].immg=="img37")
+     if (questions[index].immg=="img33")
             {
                 var x = document.createElement("IMG");
-        x.setAttribute("src", "https://vesrntechnologies.github.io//Electrician3//Images//37.png");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//33.png");
         //x.setAttribute("width", "304");
        // x.setAttribute("height", "228");
         x.setAttribute("alt", "Image Can not Display");
@@ -188,10 +188,80 @@ function showQuetions(index){
         document.getElementById("Ques").appendChild(x);
             }
 
-       if (questions[index].immg=="img45")
+       if (questions[index].immg=="img35")
             {
                 var x = document.createElement("IMG");
-        x.setAttribute("src", "https://vesrntechnologies.github.io//Electrician3//Images//45.png");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//35.png");
+        //x.setAttribute("width", "304");
+       // x.setAttribute("height", "228");
+        x.setAttribute("alt", "Image Can not Display");
+        //document.getElementById("Ques").appendChild(x);
+        document.getElementById("Ques").appendChild(x);
+            }
+       if (questions[index].immg=="img37")
+            {
+                var x = document.createElement("IMG");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//37.png");
+        //x.setAttribute("width", "304");
+       // x.setAttribute("height", "228");
+        x.setAttribute("alt", "Image Can not Display");
+        //document.getElementById("Ques").appendChild(x);
+        document.getElementById("Ques").appendChild(x);
+            }
+       if (questions[index].immg=="img38")
+            {
+                var x = document.createElement("IMG");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//38.png");
+        //x.setAttribute("width", "304");
+       // x.setAttribute("height", "228");
+        x.setAttribute("alt", "Image Can not Display");
+        //document.getElementById("Ques").appendChild(x);
+        document.getElementById("Ques").appendChild(x);
+            }
+       if (questions[index].immg=="img40")
+            {
+                var x = document.createElement("IMG");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//40.png");
+        //x.setAttribute("width", "304");
+       // x.setAttribute("height", "228");
+        x.setAttribute("alt", "Image Can not Display");
+        //document.getElementById("Ques").appendChild(x);
+        document.getElementById("Ques").appendChild(x);
+            }
+       if (questions[index].immg=="img41")
+            {
+                var x = document.createElement("IMG");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//41.png");
+        //x.setAttribute("width", "304");
+       // x.setAttribute("height", "228");
+        x.setAttribute("alt", "Image Can not Display");
+        //document.getElementById("Ques").appendChild(x);
+        document.getElementById("Ques").appendChild(x);
+            }
+       if (questions[index].immg=="img42")
+            {
+                var x = document.createElement("IMG");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//42.png");
+        //x.setAttribute("width", "304");
+       // x.setAttribute("height", "228");
+        x.setAttribute("alt", "Image Can not Display");
+        //document.getElementById("Ques").appendChild(x);
+        document.getElementById("Ques").appendChild(x);
+            }
+   if (questions[index].immg=="img44")
+            {
+                var x = document.createElement("IMG");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//44.png");
+        //x.setAttribute("width", "304");
+       // x.setAttribute("height", "228");
+        x.setAttribute("alt", "Image Can not Display");
+        //document.getElementById("Ques").appendChild(x);
+        document.getElementById("Ques").appendChild(x);
+            }
+   if (questions[index].immg=="img45")
+            {
+                var x = document.createElement("IMG");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//45.png");
         //x.setAttribute("width", "304");
        // x.setAttribute("height", "228");
         x.setAttribute("alt", "Image Can not Display");
@@ -201,34 +271,14 @@ function showQuetions(index){
        if (questions[index].immg=="img46")
             {
                 var x = document.createElement("IMG");
-        x.setAttribute("src", "https://vesrntechnologies.github.io//Electrician3//Images//46.png");
+        x.setAttribute("src", "https://vesrntechnologies.github.io//MMV22//Images//46.png");
         //x.setAttribute("width", "304");
        // x.setAttribute("height", "228");
         x.setAttribute("alt", "Image Can not Display");
         //document.getElementById("Ques").appendChild(x);
         document.getElementById("Ques").appendChild(x);
             }
-       if (questions[index].immg=="img47")
-            {
-                var x = document.createElement("IMG");
-        x.setAttribute("src", "https://vesrntechnologies.github.io//Electrician3//Images//47.png");
-        //x.setAttribute("width", "304");
-       // x.setAttribute("height", "228");
-        x.setAttribute("alt", "Image Can not Display");
-        //document.getElementById("Ques").appendChild(x);
-        document.getElementById("Ques").appendChild(x);
-            }
-       if (questions[index].immg=="img50")
-            {
-                var x = document.createElement("IMG");
-        x.setAttribute("src", "https://vesrntechnologies.github.io//Electrician3//Images//50.png");
-        //x.setAttribute("width", "304");
-       // x.setAttribute("height", "228");
-        x.setAttribute("alt", "Image Can not Display");
-        //document.getElementById("Ques").appendChild(x);
-        document.getElementById("Ques").appendChild(x);
-            }
-      
+    
 }
 // creating the new div tags which for icons
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
