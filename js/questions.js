@@ -1,624 +1,607 @@
 // creating an array and passing the number, questions, options, and answers
 let questions = [
-    {
+  {
     numb: 1,
-    question: "Which test is conducted to locate the faults in U.G. cables?",
-   
-    answer: "Loop Test",
+    question: "Which type of gear box provided with spur gears?",
+    immg: "img1",
+    answer: "Sliding mesh gear box",
     options: [
-      "Loop Test",
-      "External growler Test",
-      "Breakdown Voltage Test",
-      "Insulation Resistance Test"
+      "Auto synchromesh gear box",
+      "Constant mesh gear box",
+      "Sliding mesh gear box",
+      "Synchromesh gear box"
     ]
   },
-     {
+  {
     numb: 2,
-    question: "What does the number 1.40 represent if a stranded conductor is designated as 7/1.40?",
-    answer: "Diameter of each conductor",
+    question: "What type of inspection carried out on the pressure plate shown in the figure?",
+    immg: "img2",
+    answer: "Checking warpage",
     options: [
-      "Area of cross section",
-      "Radius of one conductor",
-      "Diameter of all conductor", 
-      "Diameter of each conductor"
+      "Checking warpage",
+      "Checking crack",
+      "Checking clearance",
+      "Checking squareness"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "What is the size of the neutral core of a 90 sq mm 31/2 core U.G cable?",
-    
-    answer: "45 Sq mm",
+    question: "What is the advantage of dual mass fly wheel?",
+    immg: "img3",
+    answer: "Reduction of gear box and body noises",
     options: [
-      "45 Sq mm",
-      "50 Sq mm",
-      "70 Sq mm",
-      "90 Sq mm"
+      "Prevent wrong clutch engagements",
+      "Reduction of gear box and body noises",
+      "Transmit the torque with less effort",
+      "Reduce the possibility of clutch slip"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "What is the name of the tool as shown in the figure?",
-    immg:"img4",
-    answer: "Crimping tool",
+    question: "Which part of dual mass fly wheel isolate the fly wheel mass system of the engine?",
+    immg: "img4",
+    answer: "Vibration damper",
     options: [
-      "cutting plier",
-      "Wire stripper",
-      "Crimping tool",
-      "Side cutting plier"
+      "Gear box",
+      "Vibration damper",
+      "Crank shaft",
+      "Cam shaft"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "Which type of joint is used in over head lines for high tensile strength?",
-    answer: "Western union joint",
+    question: "What is the advantage of dog clutch?",
+    immg: "img5",
+    answer: "No possibility of slip",
     options: [
-      "Scarfed joint",
-      "Married Joint",
-      "Western union joint",
-      "Rat tail joint"
+      "No possibility of slip",
+      "More frictional area",
+      "Less pedal force to operate",
+      "Easy maintenance and repair"
     ]
   },
   {
     numb: 6,
-    question: "What is the unit for quantity of electricity?",
-    answer: "Coulomb",
+    question: "Which type of clutch provides more frictional area and simple in construction?",
+    immg: "img6",
+    answer: "Cone clutch",
     options: [
-      "Mho",
-      "Coulomb",
-      "Volt/second",
-      "Ampere/second"
+      "Diaphragm spring clutch",
+      "Cone clutch",
+      "Dog clutch",
+      "Multi plate clutch"
     ]
   },
   {
     numb: 7,
-    question: "What is the name of the soldering method as shown in the figure? ",
-    immg:"img7",
-    answer: "Soldering gun",
+    question: "What is the advantage of using single plate hydraulic clutch?",
+    immg: "img7",
+    answer: "Minimize the force to operate the clutch",
     options: [
-      "Dip Soldering",
-      "Soldering iron",
-      "Soldering gun",
-      "soldering with flame"
+      "Minimize the force to operate the clutch",
+      "Hard transmission",
+      "Maximize the force to operate the clutch",
+      "Easy repair and maintenance"
     ]
   },
   {
     numb: 8,
-    question: "What is the name of the soldering method as shown in the figure?",
-    immg:"img8",
-    answer: "Temperature controlled soldering",
+    question: "What is the name of the part marked as ‘X’ shown in the figure?",
+    immg: "img8",
+    answer: "Damper spring",
     options: [
-      "Dip Soldering",
-      "Soldering with blow lamp",
-      "Soldering with soldering gun",
-      "Temperature controlled soldering"
+      "Damper spring",
+      "Clutch lining",
+      "Torque plate",
+      "Rivets"
     ]
   },
-      {
+  {
     numb: 9,
-    question: "How many electrons are there in the third shell of the copper atom?",
-    
-    answer: "18",
- 
+    question: "What is the name of the part marked as ‘X’ shown in the figure?",
+    immg: "img9",
+    answer: "Fly wheel",
     options: [
-      "8",
-      "13",
-      "18",
-      "29"
+      "Clutch plate hub",
+      "Gear box drive shaft",
+      "Fly wheel",
+      "Pressure plate"
     ]
   },
-      {
+  {
     numb: 10,
-    question: "What is the formula for the Quantity of electricity (Q)?",
- 
-    answer: "Current x Time",
+    question: "What is the main feature of hydraulic actuated clutches?",
+    immg: "img10",
+    answer: "Pedal effort transmitted through fluid",
     options: [
-      "Current x Time",
-      "Voltage x Current",
-      "Current x Resistance",
-      "Voltage x Resistance"
+      "Pedal effort transmitted through linkage",
+      "Pedal effort transmitted through spring",
+      "Pedal effort transmitted through fluid",
+      "Pedal effort transmitted through coupling"
     ]
   },
-     {
+  
+  {
     numb: 11,
-    question: "Which formula is used to calculate the power of a DC circuit?",
-  
-    answer: "Current x voltage",
+    question: "What is the advantage of mechanical actuated type clutches?",
+    immg: "img11",
+    answer: "Less maintenance and repair",
     options: [
-      "Voltage x time",
-      "Current x voltage",
-      "Current x resistance",
-      "Voltage x resistance"
+      "Less maintenance and repair",
+      "Less pedal effort",
+      "Smooth functioning",
+      "Easy to operate"
     ]
   },
-     {
+  {
     numb: 12,
-    question: "What is the advantage of the stranded conductor over the solid conductor?",
-    
-    answer: "More flexible",
+    question: "Which factor does not affect the torque transmission by clutch?",
+    immg: "img12",
+    answer: "Radial load on the clutch",
     options: [
-      "cost is less",
-      "More flexible",
-      "less voltage drop",
-      "more insulation resistance"
+      "Size of clutch plate",
+      "Co-efficient friction",
+      "Number of clutch plates used",
+      "Radial load on the clutch"
     ]
   },
- {
+  {
     numb: 13,
-    question: "What is the advantage of the crimping terminations?",
- 
-    answer: "Avoid loose connections",
+    question: "What is the function of clutch?",
+    immg: "img13",
+    answer: "Connect and disconnect power flow engine to gear box",
     options: [
-      "Increase the voltage",
-      "Reduce the load current",
-      "Avoid loose connections",
-      "Easy to replace"
+      "Increase and decrease the RPM of engine",
+      "Connect and disconnect power flow engine to gear box",
+      "Reduce the noise during engine running",
+      "Prevent malfunctioning of fly wheel"
     ]
   },
-{
+  {
     numb: 14,
-    question: "Which part of the underground cable is protecting the metallic sheath against corrosion?",
-    
-    answer: "Bedding",
-  
+    question: "Which system making the drive cabin comfortable for driving?",
+    immg: "img14",
+    answer: "HVAC system",
     options: [
-      "Serving",
-      "Bedding",
-      "Armouring",
-      "Lead Sheath"
+      "HVAC system",
+      "Starting system",
+      "Steering system",
+      "Charging system"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the use of dipsoldering method?",
-  
-    answer: "Soldering miniature components on PCB",
+    question: "Which system provides DC power source for the various units of the vehicles?",
+    immg: "img15",
+    answer: "Charging system",
     options: [
-      "Hard soldering",
-      "Piping and cable soldering work",
-      "Soldering miniature components on PCB",
-     "soldering of tin sheets"
+      "Storage system",
+      "Charging system",
+      "Lighting system",
+      "Steering system"
     ]
   },
-    {
+  {
     numb: 16,
-    question: "Which is the semiconductor material?",
-    
-    answer: "Germanium",
+    question: "Which type of drive line used in sand and slushy ground?",
+    immg: "img16",
+    answer: "All wheel drive line",
     options: [
-      "Eureka",
-      "Ebonite",
-      "Maganin",
-      "Germanium"
+      "Front wheel drive line",
+      "Rear wheel drive line",
+      "All wheel drive line",
+      "Center wheel drive line"
     ]
   },
-    {
+  {
     numb: 17,
-    question: "What is the reading of the micrometer as shown in the figure?",
-      immg:"img17",
-    answer: "4.55mm",
+    question: "Which type of gear box can be operated even by unskilled driver?",
+    immg: "img17",
+    answer: "Synchromesh gear box",
     options: [
-      "5.05mm",
-      "5.00mm",
-      "4.55mm",
-      "4.05mm"
+      "Synchromesh gear box",
+      "Sliding mesh gear box",
+      "Constant mesh gear box",
+      "Compound wheel mesh gear box"
     ]
   },
-     {
+  {
     numb: 18,
-    question: "Which is used to measure the size of the conductor?",
-   
-    answer:"Standard wire gauge",
+    question: "Which type of synchromesh gear box will produce torque more than three times of other types?",
+    immg: "img18",
+    answer: "Multi and Double cone",
     options: [
-      "Bevel gauge",
-      "Vernier caliper",
-      "Standard wire gauge",
-      "Depth gauge"
+      "Baulk type",
+      "Baulk ring type",
+      "Multi and Double cone",
+      "Porsche type"
     ]
   },
-       {
+  {
     numb: 19,
-    question: "What is the purpose of serving layer in underground cable?",
-    
-    answer:"Protect armouring from atmospheric condition",
+    question: "Which type of synchromesh gear box used for heavy commercial vehicles?",
+    immg: "img19",
+    answer: "Multi and double cone type",
     options: [
-      "Protect the cable from mechanical vibration",
-      "Protect the cable from mechanical injury",
-      "Protect metallic sheath against corrosion",
-      "Protect armouring from atmospheric condition"
+      "Baulk type",
+      "Multi and double cone type",
+      "Baulk ring type",
+      "Porsche type"
     ]
   },
-        {
+  {
     numb: 20,
-    question: "Which type of joint is used for extending the length of conductor in over head lines?",
-   
-    answer:"Western Union joint",
+    question: "Which gear will produce clicking noise during teeth contact?",
+    immg: "img20",
+    answer: "Spur gear",
     options: [
-      "Scarfed joint",
-      "Aerial tap joint",
-      "Britannia T joint",
-      "Western Union joint"
-    ]
-  },  
-     {
-    numb: 21,
-    question: "What is the effect on molten solder due to repeated melting?",
-    
-    answer:"Tin content reduced",
-    options: [
-      "Tin content reduced",
-      "Lead content reduced",
-      "Prevent slug formation",
-      "Even solder flowing in joint"
+      "Spur gear",
+      "Bevel gear",
+      "Helical gear",
+      "Worm gear"
     ]
   },
-                 
-        {
+  {
+    numb: 21,
+    question: "What is the location of propeller shaft?",
+    immg: "img21",
+    answer: "Between gear box and final drive",
+    options: [
+      "Between clutch shaft and fly wheel",
+      "Between gear box and final drive",
+      "Between cam shaft and clutch shaft",
+      "Between crankshaft and fly wheel"
+    ]
+  },
+  {
     numb: 22,
-    question: "Which type of soldering method is used for servicing and repairing of electronics items?",
-    
-    answer:"Soldering with soldering gun",
+    question: "Which part provides flexible connection and permits smooth transfer of torque from gear box to the rear axle?",
+    immg: "img22",
+    answer: "Universal joint",
     options: [
-      "Dip soldering",
-      "Soldering with a flame",
-      "Soldering with soldering gun",
-      "Machine soldering"
+      "Universal joint",
+      "Fly wheel",
+      "Half shaft",
+      "Clutch shaft"
     ]
-  },  
-     {
+  },
+  {
     numb: 23,
-    question: "Which method of soldering is used for repairing the vehicle body?",
-    
-    answer:"Soldering with flame",
+    question: "Which type of gear produces axial thrust?",
+    immg: "img23",
+    answer: "Worm gear",
     options: [
-      "Dip soldering",
-      "Soldering with flame",
-      "soldring with soldering iron",
-      "machine soldering"
+      "Rack & Pinion gear",
+      "Herring bone gears",
+      "Spur gear",
+      "Worm gear"
     ]
-  }, 
-     {
+  },
+  {
     numb: 24,
-    question: "What is the disadvantage of solid conductor compared to stranded conductor?",
-    
-    answer: "Less flexibility",
+    question: "What is the necessity of square cut seals?",
+    immg: "img24",
+    answer: "Prevents the seal rolling in groove",
     options: [
-      "Less rigidity",
-      "Less flexibility",
-      "Low melting point",
-     "low maechanical strength"
+      "Prevents fluid leakage",
+      "Prevents the seal rolling in groove",
+      "Provides cushioning effect",
+      "Withstands radial movement"
     ]
   },
   {
     numb: 25,
-    question: "Why the soldering iron must be kept into a stand that not in use while soldering?",
-    
-    answer: "It prevents burns and fire",
+    question: "Which type of gear box allows the gear to slide on the shaft?",
+    immg: "img25",
+    answer: "Sliding mesh gear box",
     options: [
-      "It prevents burns and fire",
-      "To control the excessive heat",
-      "To save the time of soldering process",
-     "To avoid dry soldering"
+      "Sliding mesh gear box",
+      "Synchromesh gear box",
+      "Constant mesh gear box",
+      "Compound wheel mesh gear box"
     ]
-  },        
-               {
+  },
+  {
     numb: 26,
-    question: "What is the cause for cold solder defect in soldering?",
-    
-    answer:"Insufficient heating",
+    question: "Why is synchromesh action needed in a gearbox?",
+    immg: "img26",
+    answer: "Easy gear shifting when vehicle is in motion",
     options: [
-      "Excessive heating",
-      "Insufficient heating",
-      "Incorrect usage of flux",
-      "High wattage soldering iron"
+      "Provides noise in gear shifting",
+      "Prevents cushioning effect during gear shifting",
+      "Easy gear shifting when vehicle is in motion",
+      "Damages the gear teeth during gear change"
     ]
-  }, 
-     {
+  },
+  {
     numb: 27,
-    question: "What is the value of current (I) flowing through the circuit?",
-       immg:"img27",
-    answer: "2 A",
+    question: "Which type of clutch does not require clutch pedal?",
+    immg: "img27",
+    answer: "Centrifugal",
     options: [
-      "6 A",
-      "3 A",
-      "2 A",
-     "1 A"
+      "Cone",
+      "Centrifugal",
+      "Diaphragm",
+      "Single plate"
     ]
   },
-          {
+  {
     numb: 28,
-    question: "What is the purpose of additional covering over the insulation of insulated conductor?",
-  
-    answer: "To increase dielectric strength",
+    question: "What is the type of gear shown in the figure?",
+    immg: "img28",
+    answer: "Spur gears",
     options: [
-      "To increase dielectric strength",
-      "To reduce the conductor resistance",
-      "To reduce the power loss",
-     "To increase the voltage drop"
+      "Spur gears",
+      "Helical gears",
+      "Rack & pinion",
+      "Worm gears"
     ]
   },
-
-      {
+  {
     numb: 29,
-    question: "Which type of cables are used for underground services from 33 kv to 66 kv?",
-    
-    answer: "Extra- high tension cables",
+    question: "Which is the final unit in transmission system?",
+    immg: "img29",
+    answer: "Final drive",
     options: [
-      "High tension cables",
-      "Extra super voltage cables",
-      "Super tension cables",
-     "Extra- high tension cables"
+      "Differential",
+      "Rear axle",
+      "Gear box",
+      "Final drive"
     ]
   },
-      {
+  {
     numb: 30,
-    question: "Which is the property of a good conductor?",
-    
-    answer: "Low specific resistance",
+    question: "What is the name of the gear shown in the figure?",
+    immg: "img30",
+    answer: "Helical gears",
     options: [
-      "Low specific resistance",
-      "High dielectric strength",
-      "High specific resistance",
-     "Low mechanical strength"
+      "Worm gears",
+      "Helical gears",
+      "Spur gears",
+      "Spur bevel gear"
     ]
   },
- {
+  {
     numb: 31,
-    question: "Which material is used as conductors for wiring?",
-    
+    question: "What is the type of gear shown in the figure?",
+    immg: "img31",
+    answer: "Rack & pinion",
+    options: [
+      "Spiral bevel gears",
+      "Helical gears",
+      "Rack & pinion",
+      "Worm gears"
+    ]
+  },
+  {
+    numb: 32,
+    question: "What is the name of the gear shown in the figure?",
+    immg: "img32",
+    answer: "Worm gears",
+    options: [
+      "Helical gears",
+      "Worm gears",
+      "Herring bone gears",
+      "Spur gears"
+    ]
+  },
+  {
+    numb: 33,
+    question: "What is the name of the gear shown in the figure?",
+    immg: "img33",
+    answer: "Herring bone gears",
+    options: [
+      "Herring bone gears",
+      "Helical gears",
+      "Sun gear",
+      "Star gear"
+    ]
+  },
+  {
+    numb: 34,
+    question: "What is the advantages of helical gears rather than spur gears in a transmission?",
+    immg: "img34",
+    answer: "Low noise level",
+    options: [
+      "Low cost",
+      "Less end thrust",
+      "Low noise level",
+      "Low speed"
+    ]
+  },
+  {
+    numb: 35,
+    question: "What is the name of the drive shown in the figure?",
+    immg: "img35",
+    answer: "Four wheel drive",
+    options: [
+      "Front wheel drive",
+      "Rear wheel drive",
+      "Center wheel drive",
+      "Four wheel drive"
+    ]
+  },
+  {
+    numb: 36,
+    question: "Which is up and down movement component of propeller shaft?",
+    immg: "img36",
+    answer: "Universal joint",
+    options: [
+      "Flange coupling",
+      "Knuckle joint",
+      "Rag joint",
+      "Universal joint"
+    ]
+  },
+  {
+    numb: 37,
+    question: "What is the name of part marked as ‘X’ in the drive?",
+    immg: "img37",
+    answer: "Differential",
+    options: [
+      "Differential",
+      "Gearbox",
+      "Slip joint",
+      "Propeller shaft"
+    ]
+  },
+  {
+    numb: 38,
+    question: "What is the name of part marked as ‘X’ in the drive?",
+    immg: "img38",
+    answer: "Differential housing",
+    options: [
+      "Rear leaf springs",
+      "Differential housing",
+      "Gearbox",
+      "Transfer case"
+    ]
+  },
+  {
+    numb: 39,
+    question: "Which one of the following geometrical shape's centre of gravity lies from its base is 1/3 of its height?",
+    immg: "img39",
+    answer: "Triangle",
+    options: [
+      "Square",
+      "Rhombus",
+      "Triangle",
+      "Cone"
+    ]
+  },
+  {
+    numb: 40,
+    question: "What is the formula for circumference of a circle?",
+    immg: "img40",
+    answer: "2πr",
+    options: [
+      "πr",
+      "πd",
+      "2πr",
+      "πr²"
+    ]
+  },
+  {
+    numb: 41,
+    question: "What is the formula for area of the circle?",
+    immg: "img41",
+    answer: "πr²",
+    options: [
+      "2πr",
+      "πr²",
+      "πd²",
+      "πr"
+    ]
+  },
+  {
+    numb: 42,
+    question: "Which line is called as chord?",
+    immg: "img42",
+    answer: "AB",
+    options: [
+      "ED",
+      "AB",
+      "OD",
+      "OE"
+    ]
+  },
+  {
+    numb: 43,
+    question: "What is the radius of a circle whose diameter is 44 cm?",
+    immg: "img43",
+    answer: "22 cm",
+    options: [
+      "44 cm",
+      "22 cm",
+      "23 cm",
+      "20 cm"
+    ]
+  },
+  {
+    numb: 44,
+    question: "Which type of stress?",
+    immg: "img44",
+    answer: "Shear stress",
+    options: [
+      "Tensile stress",
+      "Compressive stress",
+      "Shear stress",
+      "Torsional stress"
+    ]
+  },
+  {
+    numb: 45,
+    question: "Identify the type of brake.",
+    immg: "img45",
+    answer: "Drum brake",
+    options: [
+      "Air brake",
+      "Disc brake",
+      "Drum brake",
+      "Hydraulic brake"
+    ]
+  },
+  {
+    numb: 46,
+    question: "Identify the part.",
+    immg: "img46",
+    answer: "Spark plug",
+    options: [
+      "Blower",
+      "Valve",
+      "Compressor",
+      "Spark plug"
+    ]
+  },
+  {
+    numb: 47,
+    question: "Which part is used to get different torques and speeds?",
+    immg: "img47",
+    answer: "Gear box",
+    options: [
+      "Steering",
+      "Gear box",
+      "Clutch",
+      "Wheel"
+    ]
+  },
+  {
+    numb: 48,
+    question: "Which of the following metals is used to make electrical wires?",
+    immg: "img48",
     answer: "Copper",
     options: [
-      "Mild Steel",
       "Copper",
       "Silver",
-     "Galvanized iron"
+      "Magnesium",
+      "Lead"
     ]
   },
-      {
-    numb: 32,
-    question: "Which layer is provided above the metallic sheath in UG cable?",
-    
-    answer: "Bedding",
-    options: [
-      "Armouring",
-      "Bedding",
-      "Serving",
-     "Paper insulation"
-    ]
-  },
-     {
-    numb: 33,
-    question: "What is the formula to find the Electro Motive Force (EMF)?",
-    
-    answer: "EMF = Potential difference + voltage drop",
-    options: [
-      "EMF = Potential difference – voltage drop",
-      "EMF = Potential difference + voltage drop",
-      "EMF = Potential difference + voltage drop/2",
-     "EMF = Potential difference + 2 x voltage drop"
-    ]
-  },
-      {
-    numb: 34,
-    question: "Which law states that the applied voltage in a closed circuit, is equal to the sum of the voltage drops?",
-    
-    answer: "Lead sheath",
-  
-    options: [
-      "Ohms law",
-      "Laws of resistance",
-      "Kirchhoffs first law",
-     "Kirchhoffs second law"
-    ]
-  },
-     {
-    numb: 35,
-    question: "What is the formula for the equivalent resistance (RT) of the three resistors R1, R2 & R3 are connected in parallel?",
-    
-    answer: "RT=1/R1+1/R2+1/R3",
- 
-    options: [
-      "RT = R1 + R2 + R3",
-      "RT=1/R1+1/R2+1/R3",
-      "RT = 1/(R1 + R2 + R3)",
-     "none"
-    ]
-  },
-     {
-    numb: 36,
-    question: "What is the reading of the ohmmeter connected across the opened R2 resistor as shown in the circuit?",
-     immg:"img36",
-    answer: "Indicate infinite resistance",
-    
-    options: [
-      "Indicate zero reading",
-      "Indicate infinite resistance",
-      "Difference in the value of the resistance of R1 and R3 only",
-     "Sum of the resistance of R1 and R3 only"
-    ]
-  },
-     {
-    numb: 37,
-    question: "What is the name of the part marked X of the belted U.G cable as shown in the figure?",
-    
-    answer: "Wire wound resistor",
-    immg:"img37",
-    options: [
-      "Metal film resistor",
-      "Wire wound resistor",
-      "Carbon -film resistor",
-     "Carbon composition resistor"
-    ]
-  },
-     {
-    numb: 38,
-    question: "Which material is having the negative temperature co-efficient property?",
-    
-    answer: "Mica",
- 
-    options: [
-      "Mica",
-      "Eureka",
-      "Copper",
-     "Manganin"
-    ]
-  },
-      {
-    numb: 39,
-    question: "Convert 0.456 decimal fraction into percentage?",
-    
-    answer: "45.6%",
- 
-    options: [
-      "45.6%",
-      "4.56%",
-      "0.456%",
-     "0.0456%"
-    ]
-  },
-      {
-    numb: 40,
-    question: "What is the square of 0.01?",
-    
-    answer: "0.0001",
- 
-    options: [
-      "0.001",
-      "0.0001",
-      "0.01",
-     "0.00001"
-    ]
-  },
-       {
-    numb: 41,
-    question: "Which metal contains iron as a major content?",
-    
-    answer: "Ferrous metal",
- 
-    options: [
-      "Brass metal",
-      "bronze metal",
-      "zinc",
-     "Ferrous metal"
-    ]
-  },
-
-       {
-    numb: 42,
-    question: "What is termed as the quantity of matter contained in a body?",
-    
-    answer: "Mass",
- 
-    options: [
-      "Density",
-      "Volume",
-      "Mass",
-     "Spefific gravity"
-    ]
-  },
-      {
-    numb: 43,
-    question: "What is called mass per unit volume of a substances?",
-    
-    answer: "Denisty",
- 
-    options: [
-      "Mass",
-      "Weight",
-      "Density",
-     "Volume"
-    ]
-  },
-    {
-    numb: 44,
-    question: "What is the S.I unit of heat?",
-    
-    answer: "Joule",
- 
-    options: [
-      "Calorie",
-      "Joule",
-      "Centigrade heat unit",
-     "British thermal unit"
-    ]
-  },
-     {
-    numb: 45,
-    question: "Identify the conventional symbol of material?",
-    immg:"img45",
-    answer: "Steel",
- 
-    options: [
-      "Lead",
-      "Steel",
-      "Glass",
-     "Porcelain"
-    ]
-  },
-     {
-    numb: 46,
-    question: "Identify the conventional symbol of material?",
-    immg:"img46",
-    answer: "Glass",
- 
-    options: [
-      "Concrete",
-      "Steel",
-      "Wood",
-     "Glass"
-    ]
-  },
-     {
-    numb: 47,
-   question: "Identify the conventional symbol of material?",
-    immg:"img47",
-    answer: "Concrete",
- 
-    options: [
-      "Steel",
-      "Wood",
-      "Glass",
-     "Concrete"
-    ]
-  },
-      {
-    numb: 48,
-    question: "What is the trimmed size of A4 sheet?",
- 
-    answer: "210 x 297",
- 
-    options: [
-      "841 x 1189",
-      "594 x 841",
-      "210 x 297",
-     "148 x 210"
-    ]
-  },
-      {
+  {
     numb: 49,
-    question: "The general form of linear equation",
-    
-    answer: "ax+b",
- 
+    question: "What type of current does a car battery produce?",
+    immg: "img49",
+    answer: "Direct Current",
     options: [
-      "ax+b",
-      "b+ax",
-      "a+aax",
-     "bx+ax"
+      "Alternating current",
+      "Flow current",
+      "Under- Tow current",
+      "Direct Current"
     ]
   },
-      {
+  {
     numb: 50,
-    question: "Identify the name of prism?",
-     immg:"img50",
-    answer: "Hexagonal prism",
- 
+    question: "Which instrument is prohibited to connect with live wire?",
+    immg: "img50",
+    answer: "Ohmmeter",
     options: [
-      "Square prism",
-      "Pentagonal prism",
-      "Triangular prism",
-     "Hexagonal prism"
+      "Ammeter",
+      "Ohmmeter",
+      "Voltmeter",
+      "Wattmeter"
     ]
-  },
+  }
+
 
 
 
